@@ -12,6 +12,8 @@ import {
 } from 'react-router-dom';
 import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
+import { Provider } from 'react-redux';
+import { Store } from './store';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
