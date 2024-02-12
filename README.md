@@ -1,7 +1,7 @@
 # ProShop eCommerce Platform (v2)
 ## Maverick Haghighat Schiller -- mgh21a@fsu.edu
 
-> eCommerce platform built with the MERN stack & Redux.
+> eCommerce platform built with the MERN (MongoDB, Express.js, React.js, Node.js) stack & Redux.
 
 <!-- toc -->
 
