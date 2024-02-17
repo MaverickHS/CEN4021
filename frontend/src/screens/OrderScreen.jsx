@@ -1,4 +1,4 @@
-import { useEffect } from 'react';}
+import { useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { Row, Col, ListGroup, Image, Card, Button } from 'react-bootstrap';
 import { PayPalButtons, usePayPalScriptReducer } from '@paypal/react-paypal-js';
@@ -11,7 +11,7 @@ import {
     useGetOrderDetailsQuery,
     useGetPaypalClientIdQuery,
     usePayOrderMutation,
-  } from '../slices/orderApiSlice';
+  } from '../slices/ordersApiSlice';
 
 const OrderScreen = () => {
   const { id: orderId } = useParams();
